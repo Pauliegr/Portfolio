@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    background-color: #f8f5f2;
+} 
+h1, h2{
+    font-family: 'Elsie', cursive;
+    color : #004d47;
+    text-align: center;
+    margin: 20px 0;
+}
+a{
+    font-family: 'Lustria', serif;
+    color : #004d47;
+    font-weight: bold;
+}
+p{
+    font-family: 'Lustria', serif;
+    color : #128277;
+}
+.nav-item active{
+    color: #f8f5f2;
+}
+
