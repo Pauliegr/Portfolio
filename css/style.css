@@ -7177,9 +7177,6 @@ p {
   font-family: 'Lustria', serif;
   color: #128277; }
 
-.nav-item active {
-  color: #f8f5f2; }
-
 form {
   border: 2px solid #5bc8ac;
   margin: 50px;
@@ -7205,5 +7202,18 @@ input, textarea {
   border-radius: 5px;
   width: 100px;
   margin: 20px auto; }
+
+.box {
+  width: 80%;
+  min-width: 400px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center; }
+
+.logo {
+  width: 60%; }
+
+.photo {
+  width: 30%; }
 
 /** Layouts **/
