@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light" style="background-color: #5bc8ac;">
+    <nav class="navbar navbar-light navbar-expand-md" style="background-color: #5bc8ac;">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -43,17 +43,21 @@
         <div class="box">
             <img src="Logo/Coco.JPG" alt="" class="rounded-circle photo">
         </div>
-        <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, commodi. Illum accusantium perspiciatis aliquam vel reprehenderit soluta debitis excepturi? Suscipit ducimus sequi delectus doloremque id architecto illo soluta eum tempora.</p>      
-            <h2>Mes diplômes</h2>  
-            <ul>
-                <li>Bac rh</li>
-                <li> cap / bac pro esthétique</li>
-                <li>diplom d'etat dev Web et mobile</li>
-            </ul>
-            <h2>Mes compétences</h2>
-            <p>Python, Js Css Html</p>
-        </div>
+        <article class="propos">
+            <p class="propos__bla">.</p>      
+            <section class="propos__dip">
+                <h2>Mes diplômes</h2>  
+                <ul>
+                    <li>Bac rh</li>
+                    <li> cap / bac pro esthétique</li>
+                    <li>diplom d'etat dev Web et mobile</li>
+                </ul>
+            </section>
+            <section class="propos__comp">
+                <h2>Mes compétences</h2>
+                <p>Python, Js Css Html</p>
+            </section>
+        </article>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
