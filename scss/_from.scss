@@ -1,7 +1,7 @@
 form{
     border: 2px solid #5bc8ac;
     margin: 50px;
-    padding: 10px;
+    padding: 10px;  
     display: flex;
     flex-direction: column;
 }
@@ -10,17 +10,26 @@ label{
     font-family: 'Lustria', serif;
     margin: 0 5px;
 }
-input, textarea{
+.identity__input, .mail__input, textarea{
     margin: 5px;
     font-family: 'Lustria', serif;
     color : #128277;
     border: 2px solid #5bc8ac;
+    width: 350px;
 }
-.btn{
+.form__btn{
     background-color: #128277;
     color: #5bc8ac;
     font-family: 'Lustria', serif;
     border-radius: 5px;
     width: 100px;
-    margin: 20px auto;
+    margin: 20px 35%;
 }
+.form__gender{
+    margin: 10px 50px 10px 10px;
+}
+.form__identity, .form__mail , .form__msg {
+    margin: 10px;    
+}
+
+

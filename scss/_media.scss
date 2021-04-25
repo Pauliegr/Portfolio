@@ -1,0 +1,78 @@
+@media screen and (min-width: 768px){
+    .nav-item{
+        font-size: 1.5rem;
+        margin: 0 20px;
+        position: relative;
+        left: 50px;
+    }
+    h1, h2 {
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+    .identity__input, .mail__input, textarea{
+        width: 540px;
+    }    
+    .form__btn{
+        margin: 20px 40%;
+        font-size: 1.2rem;
+    }    
+
+}
+@media screen and (min-width: 992px) {
+    h1, h2 {
+        font-size: 4rem;
+    }
+    .nav-item{
+        left: 150px;
+        font-size: 1.6rem;
+    }
+    p, form{
+        font-size: 1.6rem;
+    }
+    .identity__input{
+        width: 270px;
+    }
+    .mail__input, textarea{
+        width: 770px;
+    }
+    .form__identity, .form__msg{
+        justify-content: space-between;
+    }
+    .form__mail{
+        margin: 20px;
+    }
+    .form__btn{
+        font-size: 1.6rem;
+        width: 200px;
+    }
+    
+}
+@media screen and (min-width: 1200px){
+    .nav-item{
+        left: 280px;
+    }
+    form{
+        width: 1000px;
+    }
+    .form__identity, .form__gender, .form__mail, .form__msg{
+        margin: 10px 50px;
+    }
+    .identity__input{
+        width: 300px;
+    }
+    .mail__input{
+        width: 650px;
+    }
+    textarea{
+        width: 820px;
+    }
+}
+@media screen and (min-width: 1500px){
+    .nav-item{
+        left: 450px;
+    }
+
+
+}
