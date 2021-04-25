@@ -8,7 +8,7 @@
     h1, h2 {
         font-size: 3rem;
     }
-    p{
+    p, li{
         font-size: 1.2rem;
     }
     .identity__input, .mail__input, textarea{
@@ -28,7 +28,7 @@
         left: 150px;
         font-size: 1.6rem;
     }
-    p, form{
+    p, form, li{
         font-size: 1.6rem;
     }
     .identity__input{
@@ -71,7 +71,7 @@
 }
 @media screen and (min-width: 1500px){
     .nav-item{
-        left: 450px;
+        left: 500px;
     }
 
 

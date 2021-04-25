@@ -7173,9 +7173,27 @@ a {
   color: #004d47;
   font-weight: bold; }
 
-p {
+p, ul {
   font-family: 'Lustria', serif;
-  color: #128277; }
+  color: #128277;
+  margin: 30px 0; }
+
+.propos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
+.propos__bla {
+  margin: 50px 0; }
+
+.projets {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column; }
+
+.projets__a {
+  color: #128277;
+  text-align: center; }
 
 form {
   border: 2px solid #5bc8ac;
@@ -7213,7 +7231,7 @@ label {
 .box {
   width: 100%;
   min-width: 200px;
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 10 auto;
   text-align: center; }
 
@@ -7224,6 +7242,10 @@ label {
   width: 30%;
   margin: 20px 0; }
 
+.img__projet {
+  width: 50%;
+  margin: 30px 0; }
+
 @media screen and (min-width: 768px) {
   .nav-item {
     font-size: 1.5rem;
@@ -7232,7 +7254,7 @@ label {
     left: 50px; }
   h1, h2 {
     font-size: 3rem; }
-  p {
+  p, li {
     font-size: 1.2rem; }
   .identity__input, .mail__input, textarea {
     width: 540px; }
@@ -7246,7 +7268,7 @@ label {
   .nav-item {
     left: 150px;
     font-size: 1.6rem; }
-  p, form {
+  p, form, li {
     font-size: 1.6rem; }
   .identity__input {
     width: 270px; }
@@ -7276,4 +7298,4 @@ label {
 
 @media screen and (min-width: 1500px) {
   .nav-item {
-    left: 450px; } }
+    left: 500px; } }
