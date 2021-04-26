@@ -26,8 +26,6 @@ p, ul{
 .parcours__bla{
     margin: 50px 0;
 }
-
-
 .projets{
     margin: 50px 0;
     display: flex;
@@ -36,4 +34,15 @@ p, ul{
 .projets__a{
     color: #128277;
     text-align: center;
+}
+.travaux{
+    color :#004d47;
+    animation-name: couleurs;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes couleurs{
+    from{color: #004d47;}
+    50%{color: #5bc8ac;}
+    to{color: #004d47;}
 }
